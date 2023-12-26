@@ -90,9 +90,8 @@ html{
     margin-top: 40px;
     font-size: 40px;
 }
-.inicio .contenido-banner h2{
-    font-size: 15px;
-    font-weight: normal;
+.inicio .contenido-banner h3{
+    color: #ff82047a;
 }
 .inicio .contenido-banner .redes a{
     color: #ffffff;
@@ -107,6 +106,66 @@ html{
     font-size: 25px;
     transition: .3s;
 }
+/*Color de botones de redes*/
 .inicio .contenido-banner .redes a:hover{
     background-color: #ff82047a;
+}
+/*Sobre Mi*/
+.sobremi{
+    background-color: #1e2326;
+    color: #ffffff;
+    padding: 50px 20px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h2 {
+   font-size: 48px; 
+   text-align: center;
+   padding: 20px 0;
+}
+.sobremi h3{
+    font-size: 35px; 
+   text-align: center;
+   padding: 20px 0;
+}
+.sobremi .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.sobremi .contenido-seccion p span{
+    color: #ff82047a;
+    font-weight: bold;
+}
+.sobremi .fila{
+    display: flex;
+}
+.sobremi .fila .titulo{
+    text-align: center;
+}
+.sobremi .fila .col{
+    width: 50%;
+}
+.sobremi .fila .col h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+.sobremi .fila .col ul{
+    list-style: none;
+}
+.sobremi .fila .col ul li{
+    margin: 12px 0;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: #ff82047a;
+    width: 130px;
+    font-size: 20px;
+}
+.sobremi .fila .col ul li span{
+    background-color: #ff82047a;
+    padding: 3px;
+    font-weight: bold;
 }
