@@ -291,6 +291,7 @@ html{
     background-color: #252a2e;
     color: #ffffff;
     font-size: 18px;
+    outline: none;
 }
 .contacto button{
     cursor: pointer;
