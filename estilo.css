@@ -364,7 +364,7 @@ footer .arriba{
     font-size: 18px;
 }
 /*Seccion responsive*/
-@media screen and (max-width:980px){
+@media screen and (max-width:800px){
     nav{
         display: none;
     }
@@ -373,5 +373,42 @@ footer .arriba{
     }
     nav.responsive{
         display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252a2e;
+        width: 180px;
     }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        padding: 10px 0 ;
+    }
+}
+@media screen and (max-width:700px){
+    .sobremi .fila{
+        display: block;
+    } 
+    .sobremi .fila .col{
+        width: fit-content;
+    }
+    .portafolio .galeria{
+        display: block;
+        width: 100%;
+    }
+    .portafolio .galeria .proyecto{
+        max-width: 100%;
+    }
+    .portafolio .galeria .proyecto img{
+        width: 100%;
+    }
+    .contacto .fila{
+        display: block;
+    }
+    .contacto .fila .col{
+        width: 100%;
+        margin-top: 50px;
+    }
+
 }
