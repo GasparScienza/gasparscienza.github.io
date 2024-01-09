@@ -9,3 +9,8 @@ function mostrarOcultarMenu(){
         menuVisible = true; 
     }
 }
+function seleccionar(){
+    //ocultar menu al seleccionar
+    document.getElementById("nav").classList="";
+    menuVisible = false;
+}
