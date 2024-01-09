@@ -132,8 +132,9 @@ html{
 }
 .sobremi .contenido-seccion p{
     font: 18px;
-    line-height: 22px;
-    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 100px;
 }
 .sobremi .contenido-seccion p span{
     color: #ff82047a;
