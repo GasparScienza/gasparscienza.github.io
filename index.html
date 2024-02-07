@@ -135,32 +135,36 @@
         <div class="contenido-seccion">
             <h2>CERTIFICADOS</h2>
             <div class="galeria">
-                <div class="proyecto">
+                <div class="proyecto" onclick="mostrarImagen('img/Certificado Git Github.png')">
                     <img src="img/Certificado Git Github.png" alt="">
                     <div class="overlay">
                         <h3>Git/GitHub</h3>
                     </div>
                 </div>
-                <div class="proyecto">
+                <div class="proyecto" onclick="mostrarImagen('img/Java para principiantes.png')">
                     <img src="img/Java para principiantes.png" alt="">
                     <div class="overlay">
                         <h3>Java</h3>
                     </div>
                 </div>
-                <div class="proyecto">
+                <div class="proyecto" onclick="mostrarImagen('img/Spring Boot Apis.png')">
                     <img src="img/Spring Boot Apis.png" alt="">
                     <div class="overlay">
                         <h3>APIs con Spring Boot</h3>
                         <p>Java | MySQL | Spring Boot</p>
                     </div>
                 </div>
-                <div class="proyecto">
+                <div class="proyecto" onclick="mostrarImagen('img/Comercio electronico.png')">
                     <img src="img/Comercio electronico.png" alt="">
                     <div class="overlay">
                         <h3>Comercio Electronico</h3>
                         <p>WordPress</p>
                     </div>
                 </div>
+            </div>
+            <div id="imagenAmpliada" class="modal">
+                <span class="cerrar" onclick="cerrarImagen()">&times;</span>
+                <img class="modal-contenido" id="imagenAmpliadaSrc">
             </div>
         </div>
 </section>
