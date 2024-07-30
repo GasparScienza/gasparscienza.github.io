@@ -138,6 +138,7 @@ body a{
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 100px;
+    text-align: center;
 }
 .sobremi .contenido-seccion p span{
     color: #ff82047a;
@@ -185,8 +186,10 @@ body a{
     color: #ffffff;
     position: relative;
     z-index: 10;
+    border-radius: 10px;
 }
 .sobremi button .overlay{
+    border-radius: 10px;
     position: absolute;
     top: 0;
     left: 0;
@@ -194,7 +197,7 @@ body a{
     height: 100%;
     background-color: #ff82047a;
     z-index: -1;
-    transition: 1s;
+    transition: .3s;
 }
 .sobremi button:hover .overlay{
     width: 100%;
@@ -228,7 +231,8 @@ body a{
     cursor: pointer; 
 }
 .portafolio .galeria .proyecto img{
-    width: 100%;
+    width: 300px;
+    height: 150px;
     display: block;
     border-radius: 15px;
 }
@@ -247,12 +251,14 @@ body a{
     letter-spacing: 3px;
     opacity: 0;
     border-radius: 15px;
+    color: white;
 }
 .portafolio .galeria .proyecto .overlay h3{
     margin-bottom: 20px;
-    transition: 1s;
+    transition: 0.1s;
 }
 .portafolio .galeria .proyecto .overlay:hover{
+    transition: 10ms;
     opacity: 1;
 }
 .portafolio .galeria .proyecto .overlay:hover h3{
@@ -398,7 +404,8 @@ footer .arriba{
     cursor: pointer;
 }
 .certificado .galeria .proyecto img{
-    width: 100%;
+    width: 320px;
+    height: 200px;
     display: block;
     border-radius: 15px;
 }
@@ -420,9 +427,10 @@ footer .arriba{
 }
 .certificado .galeria .proyecto .overlay h3{
     margin-bottom: 20px;
-    transition: 1s;
+    transition: .1s;
 }
 .certificado .galeria .proyecto .overlay:hover{
+    transition: 1ms;
     opacity: 1;
 }
 .certificado .galeria .proyecto .overlay:hover h3{
@@ -446,9 +454,9 @@ footer .arriba{
     margin: auto;
     display: block;
     width: 80%;
-    max-width: 800px; /* Ajusta el ancho máximo según tus preferencias */
+    max-width: 800px; 
     max-height: 80%;
-    margin-top: 5%; /* Ajusta este valor según sea necesario */
+    margin-top: 10%; 
 }
 
 .cerrar {
